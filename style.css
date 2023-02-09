@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+}
+.modal-bg{
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+}
+.modal{
+    display: none;
+    top: -100px;
+    height: 800px;
+    width: 900px;
+    margin: 90px auto;
+    border-radius: 14px;
+    background-color: rgb(255, 255, 255);
+}
+.modal img {
+    height: 50px;
+    width: 50px;
+    margin: 20px 15px;
+}
+
+.modal-container h1{
+    text-align: center;
+}
+.modal-container p{
+    text-align: center;
+    margin-top: 20px;
+}
+.modal-container h3{
+    margin-top: 20px;
+    text-align: center;
+}
+.photo-logo img {
+    position: relative;
+    left: 410px;
+    border-radius: 25px;
+}
+.text-box{
+    text-align: center;
+}
+.img-reklama{
+    display: flex;
+    justify-content: center;
+}
+.img-reklama img{
+    height: 50px;
+    width: 100px;
+}
+.selector{
+    display: flex;
+    justify-content: center;
+}
+.select-box{
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+header {
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+}
+.header-app{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 15px;
+}
+.logo{
+    height: 24px;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+    margin-left: 90px;
+}
+.page{
+    display: flex;
+    justify-content: center;
+}
+.reklama-header{
+    display: flex;
+    gap: 35px;
+    margin-top: 20px;
+    padding: 15px 45px;
+    background-color: #F5F5F7;
+    height: 75px;
+    width: 1150px;
+    border-radius: 5px;
+}
+.Special a{
+   color: blue;
+}
+.Page-app {
+   margin-top: 50px;
+}
+.Page-app h1{
+    font-size: 50px;
+ }
+.Page-app h6{
+    font-size: 10px;
+ }
+ .Page-select{
+    margin-top: 50px;
+    display: flex;
+ }
+.Page-select img {
+    height: 700px;
+    border-radius: 10px;
+}
+.select-color{
+    padding: 0px 100px;
+}
+.select-color span{
+    font-size: 25px;
+}
+.Iphone-14{
+    margin-top: 20px;
+    height: 100px;
+    width: 360px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 30px 20px;
+
+}
+.Iphone-14:hover{
+    border: 2px solid blue;
+    transition: .5s ease;
+}
+.Iphone-14 p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.box-gray{
+    margin-top: 20px;
+    height: 100px;
+    width: 360px;
+    background-color: #F5F5F7;
+    border-radius: 10px;
+    padding: 18px 20px;
+}
+.color-iphone {
+    margin-top: 20px;
+}
+.color-D{
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    background-color: #62596C;
+}
+.color-D:hover{
+    border: 1px solid blue;
+    transition: .5s ease;
+}
+.color-G{
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    background-color: #F4E8CE;
+}
+.color-G:hover{
+    border: 1px solid blue;
+    transition: .5s ease;
+}
+.color-S{
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    background-color: #c0c0c0;
+}
+.color-S:hover{
+    border: 1px solid blue;
+    transition: .5s ease;
+}
+.color-B{
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    background-color: #4A4847;
+}
+.color-B:hover{
+    border: 1px solid blue;
+    transition: .5s ease;
+}
+.Iphone-C{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
